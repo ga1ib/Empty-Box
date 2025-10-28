@@ -3,6 +3,9 @@ import Navbar from './components/navbar'
 import HeroSection from './components/HeroSection'
 import FeatureSection from './components/FeatureSection'
 import WorkFlow from './components/WorkFlow'
+import Testimonials from './components/Testimonials'
+import Pricing from './components/Pricing'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -12,6 +15,10 @@ function App() {
         <HeroSection />
         <FeatureSection />
         <WorkFlow />
+        <Testimonials />
+        <Pricing />
+        <Footer />
+
       </div>
       
     </div>
